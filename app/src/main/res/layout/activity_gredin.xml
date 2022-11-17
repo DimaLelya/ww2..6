@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #8C8074"
+    tools:context=".GredinActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background=" #8C8074"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gredin" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:gravity="center"
+                android:paddingRight="20dp"
+                android:text="В преддверии фашистской оккупации родной станицы в 1942-м году 16-летний Пётр Гредин добился призыва на фронт и стал телефонистом 3-го стрелкового батальона 1147-го стрелкового полка 353-и стрелковой дивизии.  Вступив в ряды Красной Армии в августе 1942-го года, уже в сентябре Гредин прибыл на фронт. Начав службу рядовым связистом, Гредин воевал на Северо-Кавказском, Закавказском, Степном, Юго-Западном и 3-м Украинском фронтах, в итоге дослужившись до должности командира взвода связи. Боевой путь Пётра Гредина начался с битвы за Кавказ, где Гредин участвовал в обороне Туапсе. 1147-й стрелковый полк, занимая оборону на горе Семашхо, вёл тяжёлые бои, отбивая атаки горнострелковых немецких частей, прорывавшихся к Туапсе. В боях Гредин неоднократно, не дожидаясь указаний командования, бежал исправлять повреждения телефонной линии, рискуя жизнью. С переходом в январе 1943-го года Черноморской группы войск в контрнаступление с целью разгрома Краснодарской группировки противника Гредин сражался на территории Адыгеи, освобождая Ассоколай, Понежукай, Козет, Хаджимуков, Энем, Яблоновский и другие населённые пункты республики.Указом Президиума Верховного Совета СССР от 19 марта 1944 года за образцовое выполнение боевых заданий командования на фронте борьбы с немецко-фашистскими захватчиками и проявленные при этом мужество и героизм красноармейцу Гредину Петру Тимофеевичу присвоено звание Героя Советского Союза с вручением Ордена Ленина и медали «Золотая Звезда» (№ 3451). Вместе с Грединым этого звания был посмертно удостоен сержант Тезиков. В мае 1944 года красноармеец Гредин был направлен на 5-месячные курсы младших лейтенантов 3-го Украинского фронта. После их окончания он вернулся в родной полк, который в это время вёл боевые действия в Болгарии, и возглавил свой взвод связи в 3-м батальоне, в рядах которого он участвовал в освобождении Югославии и Венгрии. День Победы лейтенант Гредин встретил на территории Чехословакии.После войны Пётр Гредин продолжал службу в армии, став радиотехником 68-го отдельного полка связи 10-й механизированной армии. В 1947-м году капитан Гредин вышел в запас и работал в родной станице Севастопольской заготовителем, шофёром, токарем на деревообработке, затем рабочим в плодосовхозе станицы Абадзехской. До последних дней Гредин принимал активное участие в военно-патриотическом воспитании молодёжи.  8 февраля 1980-го года Пётр Тимофеевич Гредин скончался. Похоронен в станице Абадзехская."
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

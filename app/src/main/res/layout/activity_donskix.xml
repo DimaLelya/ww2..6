@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #8C8074"
+    tools:context=".DonskixActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background=" #8C8074"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/donskix" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="1347dp"
+                android:layout_marginStart="27dp"
+                android:gravity="center"
+                android:paddingRight="20dp"
+                android:text="С июня 1941 года Донских принимал участие в боевых действиях на фронтах Великой Отечественной войны. Воевал помощником командира взвода, командиром взвода, миномётной батареи, дивизиона на Балтийском флоте, Ленинградском, 1-м Белорусском и 3-м Белорусском фронтах. Участвовал в обороне военно-морской базы Балтийского флота Ханко — в 1941 году; в обороне Ленинграда (в частности, Дороги жизни и Шлиссельбургского побережья) — в 1942 году; в прорыве блокады и освобождении Шлиссельбурга — в 1943 году (тогда же с отличием окончил артиллерийско-миномётные курсы Ленинградского военного округа); в окончательном снятии блокады, освобождении Каунаса — в 1944 году. Был дважды ранен, но всегда возвращался в свою часть.  В начале марта 1945 года, в ходе Висло-Одерской операции, командир 1-го дивизиона 538-го миномётного полка старший лейтенант Донских принял участие в боях по расширению плацдарма на реке Одер в районе населённого пункта Фогельзанг (20 км юго-восточнее города Франкфурт-на-Одере, Германия). Точная артиллерийская подготовка Донских позволила подавить огневую систему противника, обеспечив успех наступления стрелковых подразделений. Заняв Фогельзанг, Донских с дивизионом отразил 13 контратак фашистов силою от взвода до двух рот каждая, дважды вызывая огонь на себя. Всего, за период со 2-е по 5-е марта, 1-м дивизионом было уничтожено более 400 солдат и офицеров противника, два ДЗОТа, четыре наблюдательных пункта, три миномётных и две артиллерийских батареи и семь противотанковых орудий. При этом было подавлено три станковых и десять ручных пулемётов противника. В дальнейшем Донских принимал участие в битве за Берлин.  Указом Президиума Верховного Совета СССР от 31 мая 1945 года за образцовое выполнение заданий командования в борьбе против немецко-фашистских захватчиков и проявленные при этом мужество и героизм Ивану Григорьевичу Донских было присвоено звание Героя Советского Союза с вручением Ордена Ленина и медали «Золотая Звезда» (№ 6998).После войны Донских продолжил службу в армии. В 1948 году окончил Высшую офицерскую артиллерийскую школу, где служил заместителем начальника штаба. С 1956 года майор Донских — в запасе. Работал директором чугунолитейного завода в Новосибирске, старшим инженером по технике безопасности на заводе точного машиностроения. С 1979 года жил в Майкопе Республики Адыгея.  12 октября 1997 года Иван Григорьевич Донских скончался. Похоронен в Майкопе с воинскими почестями на ветеранском участке Майкопского городского кладбища."
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #8C8074"
+    tools:context=".ZyikovActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/zyikov" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:gravity="center"
+                android:paddingRight="20dp"
+                android:text="Родился 15 февраля 1916 года в деревне Каменево (ныне — Ливенского района Орловской области) в семье крестьянина. Русский. Окончил среднюю школу, курсы трактористов и автошколу. Работал колхозником в колхозе «Правда». Затем, выучившись на тракториста, трудился механизатором в Ливенской МТС. В 1934 году поступил в Болховскую автошколу и, окончив её, работал шофёром в подмосковной Истре в научно-исследовательском институте инженерной техники Красной Армии. Здесь его приняли в комсомол.  В Красной Армии с 14 октября 1937 года, служил красноармейцем-шофёром в 1-м Орджоникидзевском Краснознамённом пехотном училище. Член ВКП(б)/КПСС с 1940 года. В 1941 году окончил курсы младших политруков, в 1943 году — годичные курсы при Военно-политической академии имени В. И. Ленина, в 1944 году — Высшие всеармейские военно-политические курсы. В Великой Отечественной войне с 1942 года. Воевал помощником начальника политотдела бригады по комсомолу, секретарём комсомольской организации полка, заместителем командира батальона по политической части, парторгом полка на Юго-Западном, Закавказском, 1-м Прибалтийском, 3-м и 2-м Белорусских фронтах. В боях два раза был тяжело ранен. Заместитель командира батальона по политической части старший лейтенант Алексей Зуйков 15 сентября 1944 года в бою за населённый пункт Зилени (Бауский район, Латвийская ССР) находился в боевых порядках наступающей пехоты, поддерживаемой танками. В ответственный момент боя заменил экипаж одного из танков, огнём и гусеницами подавил 4 пулемётные точки противника и уничтожил десятки гитлеровцев, воодушевив тем самым бойцов на выполнение боевой задачи. В этом бою был тяжело ранен. После войны продолжал службу в армии. С 1955 года служил заместителем по политчасти начальника 80-й автошколы ВВС Северо-Кавказского военного округа. С 1962 года подполковник А. В. Зуйков — в запасе.  Жил в Майкопе. Работал мастером аварийно-диспетчерской службы треста «Майгоргаз». Погиб в автокатастрофе 5 апреля 1977 года, похоронен в Майкопе, Республика Адыгея. На его могиле установлен обелиск."
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

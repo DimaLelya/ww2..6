@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #8C8074"
+    android:onClick="OnClickGoMAin"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="415dp"
+                android:layout_height="305dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.501"
+                app:srcCompat="@drawable/andryxaev" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Хусен Борежевич Андрухаев (2 марта 1920 — 8 ноября 1941) — адыгейский советский журналист, поэт, Герой Советского Союза посмертно. Политрук роты 733-го стрелкового полка 136-й стрелковой дивизии 18-й армии Южного фронта, младший политрук."
+                android:textColor="@color/white" />
+
+            <Button
+
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="261dp"
+                android:onClick="OnClickGoMain"
+                android:text="Подробнее"
+
+                android:textSize="12sp"
+                app:cornerRadius="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gizatullin" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="374dp"
+                android:layout_height="224dp"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="20dp"
+                android:text="Хамазан Гатауллович Гизатуллин (10 мая 1921, Сибирки, Екатеринбургская губерния — 19 ноября 2007, Майкоп) — командир 45-миллиметрового орудия, 63-го отдельного истребительно-противотанкового дивизиона 106-й стрелковой Забайкальской дивизии 65-й армии Центрального фронта, старший сержант. Герой Советского Союза. гвардии полковник (2000). Работал слесарем на деревообрабатывающем объединении «Дружба»."
+                android:textColor="@color/white" />
+
+            <Button
+                android:onClick="OnClickMain"
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="261dp"
+                android:text="Подробнее"
+                android:textSize="12sp"
+                app:cornerRadius="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:srcCompat="@drawable/gurev"
+                />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:layout_margin="8dp"
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Михаил Николаевич Гурьев (21.11.1924 — 26.11.2004) — командир взвода 1-го стрелкового батальона 215-го гвардейского стрелкового полка 77-й гвардейской стрелковой дивизии 69-й армии 1-го Белорусского фронта, гвардии старший лейтенант. Герой Советского Союза(1945)." />
+
+            <Button
+                android:layout_marginLeft="261dp"
+                android:onClick="ClickMain"
+                android:textSize="12sp"
+                app:cornerRadius="25dp"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Подробнее" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/zuzin" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                android:text="Дмитрий Васильевич Зюзин (1 ноября 1921, Майкоп, Кубано-Черноморская область — 12 июля 1976, Жуковский, Московская область) — заместитель командира эскадрильи 11-го гвардейского истребительного авиационного полка 1-й минно-торпедной авиационной дивизии ВВС Черноморского флота, гвардии старший лейтенант. Герой Советского Союза." />
+
+            <Button
+                android:layout_marginLeft="261dp"
+                android:textSize="12sp"
+                app:cornerRadius="25dp"
+                android:onClick="Click"
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Подробнее" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/zyikov" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:id="@+id/textView10"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Алексей Васильевич Зуйков (1916—1977) — участник Великой Отечественной войны, заместитель командира батальона по политической части 875-го стрелкового полка 158-й стрелковой дивизии 43-й армии 1-го Прибалтийского фронта, старший лейтенант. Герой Советского Союза." />
+
+            <Button
+                android:layout_marginLeft="261dp"
+                android:textSize="12sp"
+                app:cornerRadius="25dp"
+                android:onClick="Go"
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Подробнее" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gredin" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_margin="8dp"
+                android:textColor="@color/white"
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пётр Тимофеевич Гредин (1 декабря 1925 — 8 февраля 1980) — телефонист взвода связи 1147-го стрелкового полка 353-й стрелковой дивизии 46-й армии 3-го Украинского фронта, Герой Советского Союза." />
+
+            <Button
+                android:layout_marginLeft="261dp"
+                android:textSize="12sp"
+                app:cornerRadius="25dp"
+                android:onClick="Rar"
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Подробнее" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/donskix" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:layout_margin="8dp"
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Иван Григорьевич Донских (14 [27] января 1917 — 12 октября 1997) — командир 1-го дивизиона 538-го миномётного полка 33-й армии 1-го Белорусского фронта, старший лейтенант. Герой Советского Союза." />
+
+            <Button
+                android:layout_marginLeft="261dp"
+                android:textSize="12sp"
+                app:cornerRadius="25dp"
+                android:onClick="Donskix"
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Подробнее" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
